@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 //Importing AWS auth to this react-app
-import Amplify from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
 import config from './aws-exports';
 
 Amplify.configure(config);
